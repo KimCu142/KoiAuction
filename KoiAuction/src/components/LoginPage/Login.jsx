@@ -55,6 +55,7 @@ const Login = () => {
 
         <div className={`${styles.col2} ${styles.glass2}`}>
           <p className={styles.loginWords}>Welcome Back</p>
+          <p className={styles.loginWords}>Welcome Back Back</p>
           <form className={`${styles.loginForm} ${styles.glass}`} onSubmit={handleLogin}>
             {/* Username Input */}
             <Input
